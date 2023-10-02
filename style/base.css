@@ -1,0 +1,52 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper {
+    margin: 0 auto;
+}
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer > p {
+    padding-top: 20px;
+    font-size: 12px;
+}
+.footer > p > span {
+    color: royalblue;
+}
+.icon {
+    border-radius: 8px;
+}
+.circle-icon {
+    background: rgb(20,68,209);
+    background: linear-gradient(63deg, rgba(20,68,209,1) 16%, rgba(26,83,203,1) 40%, rgba(23,20,209,1) 59%);
+}
+.leaf-icon {
+    background:rgb(209,137,20);
+    background: linear-gradient(63deg, rgba(209,137,20,1) 22%, rgba(255,165,0,1) 38%, rgba(209,137,20,1) 52%);
+}
+.message-icon {
+    background: rgb(20,209,150);
+    background: linear-gradient(63deg, rgba(20,209,150,1) 5%, rgba(31,255,0,1) 31%, rgba(20,209,64,1) 56%);
+}
+
+.app__store {
+    background-image: url(../images/banner/product.png);
+}
+.reviews {
+    background: linear-gradient(rgba(39, 149, 248, 0.7),rgba(39, 149, 248, 0.7)), url(/images/banner/testmonial.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    text-align: center;
+    min-height: 50vh;
+    background-position: center;  
+}
+.main__content {
+    background-image: url(../images/banner/banner.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+} 
+    
