@@ -70,3 +70,13 @@ a {
 	background-repeat: no-repeat;
 	background-size: auto;
 }
+
+.reviews {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.reviews__text {
+	max-width: 70ch;
+}
